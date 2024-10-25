@@ -1,0 +1,71 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+img {
+  display: block;
+}
+
+.headr-wrapper {
+margin-left: 550px;
+}
+
+.navbar {
+  background-color: skyblue;
+  width: 300px;
+  border-radius: 20px;
+  border: 1px solid skyblue; 
+}
+
+.link {
+  border-radius: 10px;
+  margin-inline: auto;
+  display: block;
+  border: 1px solid skyblue;
+  width: 200px;
+  height: 40px;
+  text-align: center;
+  margin-block: 20px;
+  color: #FF902B;
+  background-color: white;
+  transition: 0.5s linear;
+}
+
+.link:hover {
+  color: skyblue;
+  background-color: gainsboro;
+}
+
+.fa-cart-shopping {
+  margin-top: 10px;
+  transition: 0.5s linear;
+}
+
+
+
+.navbar-name {
+  color: white;
+  font-size: 18px;
+  text-align: center;
+}
+
+.buy {
+  width: 200px;
+  height: 40px;
+  margin-left: 50px;
+  color: skyblue;
+  border: none;
+  border-radius: 10px;
+ display: block;
+}
+
+.name {
+  font-size: 14px;
+  color:#555555 ;
+  text-align: center;
+}
+
